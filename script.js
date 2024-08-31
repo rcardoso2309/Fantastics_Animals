@@ -89,4 +89,4 @@ function initAnimacaoScroll() {
   window.addEventListener('scroll', animaScroll);
   }
 }
-initAnimacaoScroll();   
+initAnimacaoScroll(); }
