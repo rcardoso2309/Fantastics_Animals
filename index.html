@@ -7,11 +7,13 @@
   <title>Fantastics Animals</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+
+  <script>document.documentElement.className += ' js'</script>
   <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 <body>
-  <nav class="menu">
+  <nav class="menu js-menu">
     <ul>
       <li><a href="#animals">Animals</a></li>
       <li><a href="#faq">Faq</a></li>
@@ -19,9 +21,9 @@
       <li><a href="https://rcardoso2309.github.io/portfolio_dev/">Dev ⇾</a></li>
     </ul>
   </nav>
-  <section class="grid-section animals" id="animals">
+  <section class="grid-section animals js-scroll" id="animals">
     <h1 class="title">Fantastics Animals</h1>
-    <ul class="animals-list">
+    <ul class="animals-list js-tabmenu">
       <li>
         <img src="img/imagem1.jpg">
       </li>
@@ -41,7 +43,7 @@
         <img src="img/imagem6.jpg">
       </li>
     </ul>
-    <div class="description-animals">
+    <div class="description-animals js-tabcontent">
       <section>
         <h2>Fox</h2>
         <p>Foxes are mammals and omnivores belonging to the family Canidae. They are medium-sized vulpids characterized by a long snout and a long, bushy tail. Foxes are known for their intelligence and adaptability, thriving in diverse environments from forests to urban areas.
@@ -88,9 +90,9 @@
     </div>
   </section>
 
-  <section class="grid-section faq" id="faq">
+  <section class="grid-section faq js-scroll" id="faq">
     <h1 class="title">FAQ</h1>
-    <dl class="faq-list">
+    <dl class="faq-list js-accordion">
       <dt>How old are the animals?</dt>
       <dd>Foxes typically live between 3 to 4 years in the wild, although some can live up to 6 years or more if they manage to avoid predators and other dangers. In captivity, where they are protected from these threats, foxes can live up to 10 to 12 years. The lifespan of a fox can vary significantly depending on factors such as species, habitat, and environmental conditions.</dd>
 
@@ -111,10 +113,10 @@
     </dl>
   </section>
 
-  <section class="grid-section contact" id="contact">
+  <section class="grid-section contact js-scroll" id="contact">
     <h1 class="title">Contact</h1>
     <div class="map">
-      <img src="img/mapa.png" alt="">
+      <img src="img/mapa.png" alt="mapa">
     </div>
     <ul class="data">
       <li>contato@fantasticsanimals.com</li>
@@ -128,7 +130,9 @@
     <p>Copyright © Rafael Cardoso 2024 All rights reserved.</p>
   </footer>
 
-  <script src="./script.js"></script>
+  <script src="script.js"></script>
+
+
 </body>
 
 </html>

@@ -59,6 +59,13 @@ function initScrollSuave() {
     block: 'start',
   });
 
+  // forma alternativa
+  // const topo = section.offsetTop;
+  // window.scrollTo ({
+  //   top: topo,
+  //   behavior: "smooth"
+  //   });
+  }
 
   linksInternos.forEach((link) => {
     link.addEventListener('click', srollToSection)
@@ -89,4 +96,5 @@ function initAnimacaoScroll() {
   window.addEventListener('scroll', animaScroll);
   }
 }
-initAnimacaoScroll(); }
+initAnimacaoScroll();
+
